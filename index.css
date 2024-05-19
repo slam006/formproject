@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    padding: 30px;
+}
+
+h1{
+  text-align: center;  
+  padding-bottom: 2rem;
+}
+input{
+margin-bottom: 2rem;
+padding: 10px;
+border: none;
+outline: none;
+border-bottom: 1px solid #fb2525;
+background: transparent;
+color: white;
+width: 300px;
+font-size: 16px;
+}
+body{
+    background-image: url(sky.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+button{
+padding: 10px 20px;
+background-color: #fb2525;
+border-radius: 20px;
+color: white;
+border-color: transparent;
+outline: none;
+width: 100%;
+margin-bottom: 2rem;
+font-size: 16px;
+transition: 1.5s;
+}
+a{
+    color: #ffc107;
+    text-decoration: none;
+}
+p{
+    text-align: center;
+}
+button:hover{
+    background-color: #ffc107;
+    cursor: pointer;
+}
+
